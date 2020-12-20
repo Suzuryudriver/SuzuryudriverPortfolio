@@ -1,0 +1,182 @@
+body{
+	background-color:#000000;
+}
+
+nev{
+	list-style:none;
+	display:flex;
+	margin:5px;
+	padding:none;
+	justify-content:center;
+	align-items:center;
+
+}
+
+nev li{
+	width:320px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	justify-contet:center;
+	background-coler: #000000;
+	font-size:1.25em;
+	margin:auto;
+	float:left;
+	border:solid #ffffff;
+	padding:10px;
+}
+
+nev li a{
+	text-decoration:none;
+	color:#ffffff;
+	font-weight:bold;
+}
+
+h1{
+	text-align:center;
+	color:#ffffff;
+	text-decoration:none;
+	margin-top:40px;
+	margin-bottom:10px;
+}
+
+.profimg{
+	width:30%;
+	height:auto;
+}
+
+.prof{
+	text-align:center;
+	color: #ffffff;
+}
+
+table{
+	color:#ffffff;
+	font-size:1.25em;
+	table-layout:fixed;
+	color: #ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	word-wrap:break-word;
+	border-collapse:collapse;
+}
+
+
+tr{
+	border-bottom:solid 2px #ffffff;
+	padding: 10px 10px;
+	
+}
+
+
+table tr td:nth-of-type(1){
+	text-align:center;
+	width:300px;
+}
+
+table tr td:nth-of-type(2){
+	width:1000px;
+}
+
+.skill{
+	text-align:center;
+}
+
+.skill p{
+	color:#ffffff;
+	font-size:1.25em;
+}
+
+.skill h2{
+	color:#ffffff;
+	font-size:1.5em;
+	margin:25px;
+}
+
+.contacts{
+	text-align:center;
+}
+
+.contacts p{
+	color:#ffffff;
+	font-size:1.25em;
+	margin:-10px;
+}
+
+.works{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.box{
+	position:relative;
+	border:double 2px #ffffff;
+	height:500px;
+	width:400px;
+	text-align:center;
+	margin:30px;
+}
+
+.box img{
+	position:absolute;
+	width:380px;
+	height:auto;
+	top:10%;
+	left:2.5%;
+}
+
+.sent1{
+	position:absolute;
+	top:50%;
+	left:0%;
+	text-align:left;
+}
+
+.sent2{
+	position:absolute;
+	top:65%;
+	left:7.5%;
+	text-align:center;
+}
+
+.sent2b{
+	position:absolute;
+	top:65%;
+	left:36.5%;
+	text-align:center;
+}
+
+
+.sent3{
+	position:absolute;
+	top:80%;
+	left:30%;
+	text-align:center;
+
+}
+
+.img01{
+	position:relative;
+}
+
+.img01 p{
+	position:absolute;
+	color:#ffffff;
+	font-size:3em;
+	top:20%;
+	left:50%;
+}
+
+.sub{
+	position:absolute;
+	color:#ffffff;
+	font-size:1.5em;
+	top:70%;
+	left:50%;
+}
+
+
+.img01 img{
+	width:100%;	
+}
